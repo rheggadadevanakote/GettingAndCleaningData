@@ -34,6 +34,7 @@ head(Yset,n=2)
 names(XSet)<-features[meanOrstd]
 names(SSet)<-"Subject"
 PreTidyData<-cbind(XSet,YSet,SSet)
+write.csv(PreTidyData,"./UCI HAR DataSet/PreTidyData.csv")
 head(PreTidyData, n=3)
 
 ##5 . Creates a second, independent tidy data set with the average of each variable for each activity and each subject
