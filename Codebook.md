@@ -31,3 +31,6 @@ b)Load the training data to X_train (7352 obs of 561 variables) ,Y_train( 7352 o
 c)Load data from features.txt to features. Use the labels in features to names the XSet columns. Extracts only the measurements on the 
   mean and standard deviation for each measurement. The updated XSet has 10299 obs of 66 variables .The variable counts are reduced as only
   those pertaining to mean and standard deviation have been extracted.
+  
+d)Load data from activity_labels.txt to activitylabels. The YSet uses descriptive activity names to name the activities in the data set. There 
+  are 6 levels of activity like walking,walking upstairs,walking downstairs,sitting standing,laying.
