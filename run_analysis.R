@@ -31,3 +31,6 @@ names(YSet)<-"activity_labels"
 head(Yset,n=2)
 
 ##4 . Uses descriptive activity names to name the activities in the data set
+names(XSet)<-features[meanOrstd]
+names(SSet)<-"Subject"
+PreTidyData<-cbind(XSet,YSet,SSet)
