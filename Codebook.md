@@ -24,6 +24,10 @@ transformation.
 
 b)Load the training data to X_train (7352 obs of 561 variables) ,Y_train( 7352 obs of 1 variable),Subject_train(7352 obs of 1 variable)
   Load the test     data to X_test(2947 obs of 561 variables), Y_test (2947 obs of 1 variable), Subject_test ( 2947 obs of 1 variable)
-  Merge the X_train/X_test to form XSet (10299 obs of 66 variables)
+  Merge the X_train/X_test to form XSet (10299 obs of 561 variables)
   Merge the Y_train/Y_test to form YSet (10299 obs of 1 variables)
   Merge the Subject_train/Subject_test to form SSet (10299 obs of 1 variables)
+  
+c)Load data from features.txt to features. Use the labels in features to names the XSet columns. Extracts only the measurements on the 
+  mean and standard deviation for each measurement. The updated XSet has 10299 obs of 66 variables .The variable counts are reduced as only
+  those pertaining to mean and standard deviation have been extracted.
