@@ -22,4 +22,8 @@ a) The file downloads the original zip and unzips it to the " UCI HAR DataSet" f
 X_Train, X_Test, Y_Train, Y_Test, Subject_Train,Subject_Test which are the text files of interest to perform our
 transformation.
 
-b)
+b)Load the training data to X_train (7352 obs of 561 variables) ,Y_train( 7352 obs of 1 variable),Subject_train(7352 obs of 1 variable)
+  Load the test     data to X_test(2947 obs of 561 variables), Y_test (2947 obs of 1 variable), Subject_test ( 2947 obs of 1 variable)
+  Merge the X_train/X_test to form XSet (10299 obs of 66 variables)
+  Merge the Y_train/Y_test to form YSet (10299 obs of 1 variables)
+  Merge the Subject_train/Subject_test to form SSet (10299 obs of 1 variables)
