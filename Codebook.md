@@ -34,3 +34,9 @@ c)Load data from features.txt to features. Use the labels in features to names t
   
 d)Load data from activity_labels.txt to activitylabels. The YSet uses descriptive activity names to name the activities in the data set. There 
   are 6 levels of activity like walking,walking upstairs,walking downstairs,sitting standing,laying.
+  
+e)The script renames the SSet with descriptive column name like Subject. It then merges the XSet,YSet and the SSet. This creates a data frame
+  of 10299 obs with 68 variables. The last two contain columns labelled with activity ID's and Subject ID's. It is written out to the PreTidyData.csv
+  
+f) The final cleaned independent tidy data set is created with the average of each measurement for each activity and each subject. It is a 180 * 66
+  dataframe that is written out to TidyData.csv
